@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-m.css" rel="stylesheet">
+    <link href="css/style-dark.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="img/cinema.png" />
+    <title>FILM GENRES</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="nav">
+            <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>-->
+                <div class="navbar-nav">
+                    <a href="#music-films" class="nav-item-music nav-link active text-white"></a>
+                    <a href="#war-films" class="nav-item-war nav-link active text-white"></a>
+                    <a href="#horror-films" class="nav-item-horror nav-link active text-white"></a>
+            </div>
+    </nav>
+
+    <!-- Top -->
+    <div class="jumbotron jumbotron-fluid text-white text-center top">
+        <div class="container">
+            <h1 class="text-uppercase top-header text-center" id="jumbotron-header">Film Genres</h1>
+            <p class="top-text">
+                My favourite films from every genre  
+            </p>
+            <div class="d-flex justify-content-center">
+                <input type="checkbox" class="checkbox" id="checkbox"><label for="checkbox" class="label">
+                    <img src="img/crescent-moon.png" alt="moon" width="17px">
+                    <img src="img/sun.png" alt="sun" width="17px">
+                    <div class="ball"></div>
+                </label>
+            </div>
+
+        </div>
+    </div>
+    <!-- Introduction -->
+
+    <section class="introduction">
+        
+        <h2 class="text-center text-uppercase section-header">Important notes</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="text-center introduction-item">
+                        <img class="introduction-img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-the-list-classic-movies-casablanca-gettyimages-2716404-1498059037.jpg" width="70px">
+                        <h3 class="introduction-item-header">Approachability</h3>
+                        <p>Every film is at least a bit well-known and easy to digest.
+                            I don't include any indie films or films made before 80s.</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="text-center introduction-item">
+                        <img class="introduction-img" src="https://www.indiewire.com/wp-content/uploads/2019/09/psycho.jpg">
+                        <h3 class="introduction-item-header">Theme</h3>
+                        <p>I consider genres as a theme. Some of these films aren't 100% dedicated to the genre, e.g. not every music film has to be a musical.</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="text-center introduction-item">
+                        <img class="introduction-img" src="https://www.novinite.com/media/images/2012-02/photo_verybig_137028.jpg">
+                        <h3 class="introduction-item-header">Originality</h3>
+                        <p>Every film is one of a kind even if they share the same genre. My point is to show the variety of genres that are too early judged and labelled.</p>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+        </div>
+
+    </section>
+
+    <!-- Music Films -->
+    <section class="films border-top border-danger" id="music-films">
+        <div class="films-header">
+            <h2 class="text-center text-uppercase section-header">Music films</h2>
+        </div>
+        <div class="container ">
+            <div class="text-center testimonial-content mx-auto">
+                <blockquote class="blockquote ">
+                    <p class="testimonial-text text-left">Music can tell a wonderful story but it has to be accurately dosed.
+                        Otherwise people will complain that actors suddenly burst into singing.
+                        And rigtfully so, it can be exhausting. Story is the key.<br><br>
+
+                        <i>Sound of Metal</i> tells how to survive and live without music,
+                        <i>Inside Llewyn Davis</i> wonders if music is worth living for,
+                        <i>La La Land</i> forces us to choose between music and love,
+                        <i>Rocketman</i> shows us the man that got destroyed or rather saved by his own music.<br><br><br>
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://www.filmawka.pl/wp-content/uploads/2021/03/Sound-of-metal.jpg"
+                        alt="sound of metal">
+                    <span class="text-uppercase page-label text-danger ">Directed by Darius Marder (2019)</span>
+                    <h3 class="text-uppercase films-subheader">Sound of Metal</h3>
+                    <span href="#" class="badge badge-danger">121 min</span>
+                    <a href="https://www.youtube.com/watch?v=VFOrGkAvjAE" class="badge badge-danger">Trailer</a>
+                    <p> You can tell hell of a story with silence.
+                        We can only imagine how hard it is for a musician to lose a hearing.
+                        But somehow we feel the pain and emotions thanks to brilliant sound editing and acting. <br>
+                    </p>
+                    <button class="btr btn-danger films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/sound-of-metal/">Read
+                            More</a></button>
+                </div>
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://observationblogger.files.wordpress.com/2014/02/inside-llewyn-davis-ulysses-cat.png"
+                        alt="Inside LLewyn Davis">
+                    <span class="text-uppercase page-label text-danger">Directed by Joel and Ethan Coen
+                        (2013)</span>
+                    <h3 class="text-uppercase films-subheader">Inside Llewyn Davis</h3>
+                    <span href="#" class="badge badge-danger">104 min</span>
+                    <a href="https://www.youtube.com/watch?v=e-JW1GHbp9o" class="badge badge-danger">Trailer</a>
+                    <p>Folk music, misery and cats.
+                        If you relate to or like either one of those - drop everything and watch this film.
+                        It feels like a warm cuddle and a bucket of cold water at the same time.
+                    </p>
+                    <button class="btr btn-danger films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/inside-llewyn-davis/">Read More</a></button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img" src="https://data.whicdn.com/images/274660708/original.jpg"
+                        alt="La La Land">
+                    <span class="text-uppercase page-label text-danger ">Directed by Damien Chazelle (2016)</span>
+                    <h3 class="text-uppercase films-subheader">La La Land</h3>
+                    <span href="#" class="badge badge-danger">129 min</span>
+                    <a href="https://www.youtube.com/watch?v=0pdqf4P9MB8" class="badge badge-danger">Trailer</a>
+                    <p>This musical blends romance, comedy and drama into something magical.
+                        Everything is surrounded by the original music and beautiful shots.
+                    </p>
+                    <button class="btr btn-danger films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/la-la-land/">Read More</a></button>
+                </div>
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://thatshelf.com/wp-content/uploads/2019/05/Rocketman-Featured.jpg" alt="Rocketman">
+                    <span class="text-uppercase page-label text-danger">Directed by Dexter Fletcher (2019)</span>
+                    <h3 class="text-uppercase films-subheader">Rocketman</h3>
+                    <span href="#" class="badge badge-danger">121 min</span>
+                    <a href="https://www.youtube.com/watch?v=mpOGT3GTO84" class="badge badge-danger">Trailer</a>
+                    <p>Every song has its purpose and every note has its tenor.
+                        The same is with Elton John's life.
+                        This musical biopic tells a story of a legendary musician that
+                        had to give in everything in order to achieve so much more.</p>
+                    <button class="btr btn-danger films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/rocketman-2019/">Read
+                            More</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- War Films -->
+    <section class="films films-war border-top border-warning" id="war-films">
+        <div class="films-header">
+            <h2 class="text-center text-uppercase section-header">War films</h2>
+        </div>
+        <div class="container ">
+            <div class="text-center testimonial-content mx-auto">
+                <blockquote class="blockquote ">
+                    <p class="testimonial-text text-left">Every war film carries a message and directors have a tough job
+                        to showcase it.
+                        Golden medium is to engage viewers even thought they haven't lived in the war times.
+                        In addition we always associate war films with brutality and pain.
+                        But is there any other way to show the war reality?<br><br>
+                        <i>Inglorious Basterds</i> and <i>Jojo Rabbit</i> balance drama and comedy,
+                        <i>1917</i> and <i>Band of Brothers</i> show true visage of both World Wars.<br><br><br>
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://pbs.twimg.com/media/Ec06GGFWAAkcegB?format=jpg&name=large" alt="sound of metal">
+                    <span class="text-uppercase page-label text-warning ">Directed by Quentin Tarantino (2009)</span>
+                    <h3 class="text-uppercase films-subheader">Inglourious Basterds</h3>
+                    <span href="#" class="badge badge-warning">153 min</span>
+                    <a href="https://www.youtube.com/watch?v=qRYDNWXuip8" class="badge badge-warning">Trailer</a>
+                    <p> <i>We Ain’t In The Prisoner-Takin’ Business. We’re In The Killin’ Nazi Business</i>.
+                        It's all over the place with its jokes, brutality and writing.
+                        Expect the unexpected and you'll be fine.
+                    </p>
+                    <button class="btr btn-warning  films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/inglourious-basterds/">Read
+                            More</a></button>
+                </div>
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://ca-times.brightspotcdn.com/dims4/default/0314ce7/2147483647/strip/true/crop/5000x2866+0+0/resize/1486x852!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc8%2Fc0%2F1f6726564528a89ce18ba8648251%2Fla-en-1917-movie-163.JPG"
+                        alt="Inside LLewyn Davis">
+                    <span class="text-uppercase page-label text-warning ">Directed by Sam Mendes
+                        (2019)</span>
+                    <h3 class="text-uppercase films-subheader">1917</h3>
+                    <span href="#" class="badge badge-warning">119 min</span>
+                    <a href="https://www.youtube.com/watch?v=gZjQROMAh_s" class="badge badge-warning">Trailer</a>
+                    <p>The whole film is carried by brilliance of its cinematography.
+                        It looks like one-shot film <i>(altough we know it can't be true)</i>.
+                    </p>
+                    <button class="btr btn-warning  films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/1917/">Read More</a></button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://static.wixstatic.com/media/16c81e_e09760099c4a4928aa198201c81c209b~mv2.jpg/v1/fill/w_1000,h_557,al_c,q_90,usm_0.66_1.00_0.01/16c81e_e09760099c4a4928aa198201c81c209b~mv2.jpg"
+                        alt="La La Land">
+                    <span class="text-uppercase page-label text-warning  ">Directed by Taika Waititi (2019)</span>
+                    <h3 class="text-uppercase films-subheader">Jojo Rabbit</h3>
+                    <span href="#" class="badge badge-warning">108 min</span>
+                    <a href="https://www.youtube.com/watch?v=tL4McUzXfFI" class="badge badge-warning">Trailer</a>
+                    <p>Satire about a young boy and his imaginary friend <i>Adolf Hitler</i>.
+                        Films about WW2 aren't usually funny but this one brings you every emotion you'd ask for.
+                    </p>
+                    <button class="btr btn-warning  films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/jojo-rabbit/">Read More</a></button>
+                </div>
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://i.insider.com/5b6482ba1982d83b008b4a8e?width=700" alt="Rocketman">
+                    <span class="text-uppercase page-label text-warning ">Directed by Various Directors (2001)</span>
+                    <h3 class="text-uppercase films-subheader">Band of Brothers</h3>
+                    <span href="#" class="badge badge-warning">594 min</span>
+                    <a href="https://www.youtube.com/watch?v=zDBUooZQzgA" class="badge badge-warning">Trailer</a>
+                    <p>This mini-series follows story of <i>Easy Company</i> and showcases every aspect of WW2. It's
+                        about leadership and sacrifise. Based on a true story that was told by survivors of the war.</p>
+                    <button class="btr btn-warning  films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/band-of-brothers/">Read
+                            More</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Horror films-->
+    <section class="films films-horror border-top border-success" id="horror-films">
+        <div class="films-header">
+            <h2 class="text-center text-uppercase section-header">Horror films</h2>
+        </div>
+        <div class="container ">
+            <div class="text-center testimonial-content mx-auto">
+                <blockquote class="blockquote ">
+                    <p class="testimonial-text text-left">Every genre has something to offer. Personally, I enjoy watching horror films where
+                        story takes the foreground and you get to know complexity of the characters.<br><br>
+                        Family tropes really add someting to the horror films. You can notice that in
+                        <i>A Quiet Place</i> and <i>It</i>. If this isn't enough for you - science fiction horror like <i>Alien</i>
+                        may be another good solution to get invested in. On the other side of the spectrum we have comedy horror
+                        <i>What We Do in the Shadows</i>.<br><br><br>
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://338398-1551612-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/04/A-Quiet-Place-Screenshot-02.jpg"
+                        alt="sound of metal">
+                    <span class="text-uppercase page-label text-success ">Directed by John Krasinski (2018)</span>
+                    <h3 class="text-uppercase films-subheader">A Quiet Place</h3>
+                    <span href="#" class="badge badge-success">91 min</span>
+                    <a href="https://www.youtube.com/watch?v=p9wE8dyzEJE" class="badge badge-success">Trailer</a>
+                    <p> How to survive in a post-apocalyptic world full of monsters without making any sound? Abbott
+                        family might give you some answers. Consider it as a <i>soft horror</i>. Very suspenseful and
+                        full of heart.</p>
+                    <button class="btr btn-success films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/a-quiet-place-2018/">Read
+                            More</a></button>
+                </div>
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://media1.popsugar-assets.com/files/thumbor/C-ZjZ0mpJ9XUZsDdkQPyu-Z36Ko/fit-in/1024x1024/filters:format_auto-%21%21-:strip_icc-%21%21-/2017/03/31/782/n/1922283/810ba3d158de961835e776.65059593_edit_img_cover_file_43378489_1490981813/i/Movie-Cast-2017.jpg"
+                        alt="Rocketman">
+                    <span class="text-uppercase page-label text-success ">Directed by Andy Muschietti (2017)</span>
+                    <h3 class="text-uppercase films-subheader">It</h3>
+                    <span href="#" class="badge badge-success">135 min</span>
+                    <a href="https://www.youtube.com/watch?v=FnCdOQsX5kc" class="badge badge-success">Trailer</a>
+                    <p><i>Pennywise the Dancing Clown</i> starts to terrorise kids in Derry. A small group of them takes
+                        risks to try to stop him for the greater good. Besides being a horror, it's a heartfelt story
+                        about friendship.
+                    </p>
+                    <button class="btr btn-success  films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/it-2017/">Read
+                            More</a></button>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://64.media.tumblr.com/43f9e0d51e13412cb0e111f7104415e3/tumblr_ociq8x8SpM1r3741jo3_1280.png"
+                        alt="La La Land">
+                    <span class="text-uppercase page-label text-success ">Directed by Ridley Scott (1979)</span>
+                    <h3 class="text-uppercase films-subheader">Alien</h3>
+                    <span href="#" class="badge badge-success">117 min</span>
+                    <a href="https://www.youtube.com/watch?v=LjLamj-b0I8" class="badge badge-success">Trailer</a>
+                    <p>Classic. The crew of spaceship Nostromo has to deal with uninvited creature while returning to
+                        the earth.
+                    </p>
+                    <button class="btr btn-success  films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/alien/">Read More</a></button>
+                </div>
+                <div class="col-md">
+                    <img class="rounded img-fluid films-img"
+                        src="https://emmawrightsmt.files.wordpress.com/2015/07/1087-m-what-we-do-in-the-shadows.jpg"
+                        alt="WWDITS">
+                    <span class="text-uppercase page-label text-success ">Directed by T. Waititi, J. Clement
+                        (2014)</span>
+                    <h3 class="text-uppercase films-subheader">What We Do in the Shadows</h3>
+                    <span href="#" class="badge badge-success">86 min</span>
+                    <a href="https://www.youtube.com/watch?v=IAZEWtyhpes" class="badge badge-success">Trailer</a>
+                    <p> <i>We're vampires. We don't put down towels.</i> Horror? Comedy? Document? About Vampires? Yes.
+                        And it works perfectly.
+                    </p>
+                    <button class="btr btn-success  films-button"><a class="text-white"
+                            href="https://letterboxd.com/film/what-we-do-in-the-shadows/genres/">Read More</a></button>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <section class="progress-bar text-center">
+
+    </section>
+    <!-- Footer -->
+    <footer class="text-center copyright text-white bg-dark">
+        <div class="container copyright-text">
+            Copyright &copy; 2021 Aleksandra Brzostek. All Rights Reserved
+            <span class="mt-2 d-block copyright-designed"> Icons made by Freepik from www.flaticon.com
+            </span>
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+</html>
