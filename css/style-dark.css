@@ -1,0 +1,40 @@
+body.dark {
+    background-color: black;
+}
+body.dark section {
+    background-color: black;
+}
+
+
+body.dark p {
+    color: whitesmoke;
+}
+
+body.dark h2 {
+    color: whitesmoke;
+}
+
+body.dark h3 {
+    color: whitesmoke;
+}
+
+body.dark .icon {
+    color: whitesmoke;
+}
+
+body.dark .films{
+    background-color: rgb(19, 19, 19);
+}
+
+body.dark .films-war{
+    background-color: rgb(32, 32, 32);
+}
+
+@media (max-width: 768px) {
+body.dark .top{
+    background-color: rgb(24, 24, 24);
+}
+}
+
+
+
